@@ -1,0 +1,23 @@
+# 虚拟环境
+.venv/
+venv/
+
+# 抓取结果 —— 含姓名 / 生年月日 / 国籍 / 受験番号 / 真实分数，绝不提交
+out/
+
+# 凭据（正常存在 ~/.config/eju-getter/ 或 macOS 钥匙串，这里再兜一层）
+credentials.json
+config.json
+state.json
+*.pem
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 系统
+.DS_Store

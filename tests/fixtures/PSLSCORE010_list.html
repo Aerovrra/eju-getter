@@ -1,0 +1,44 @@
+<!-- 按真实 PSLSCORE010.php 结构做的脱敏 fixture（个人信息已替换） -->
+<html><head>
+<script type="text/javascript">
+function detailClick(num,ApplicantId){document.main_form.btnClick.value=num ;document.main_form.hidApplicantId.value=ApplicantId ;document.main_form.submit(); }
+</script>
+</head><body>
+<form class="form-horizontal" method="post" name="main_form" enctype="multipart/form-data" autocomplete="off">
+<h1>受験結果の確認</h1>
+<p class="lblMsg">既に終了した直近4回の試験について受験結果を確認することができます。</p>
+<table class="scorelist">
+  <caption>受験結果の一覧</caption>
+  <thead><tr>
+    <th class="w400">試験</th><th>申込区分</th><th>受験地</th><th>受験番号</th><th class="w160">詳細</th>
+  </tr></thead>
+  <tbody>
+    <tr>
+      <td>2025年度（令和7年度）日本留学試験（第2回）</td><td>個人</td><td>東京</td><td>99*0000*000001</td>
+      <td><div class="button_area_m hAuto">
+        <button class="btnC link m-b08" type="button" onclick="detailClick(1,'AP0000000001')">詳細へ</button>
+      </div></td>
+    </tr>
+    <tr>
+      <td>2025年度（令和7年度）日本留学試験（第1回）</td><td>個人</td><td>東京</td><td>99*0000*000002</td>
+      <td><div class="button_area_m hAuto">
+        <button class="btnC link m-b08" type="button" onclick="detailClick(1,'AP0000000002')">詳細へ</button>
+      </div></td>
+    </tr>
+    <tr>
+      <td>2026年度（令和8年度）日本留学試験（第1回）</td><td>個人</td><td>東京</td><td>99*0000*000003</td>
+      <td><span>成績公表前</span></td>
+    </tr>
+  </tbody>
+</table>
+<input type="hidden" id="hidApplicantId" name="hidApplicantId" value="">
+<input type="hidden" id="datTimeStamp" name="datTimeStamp" value="20260101000000">
+<input type="hidden" id="btnClick" name="btnClick" value="">
+<input type="hidden" id="pageClick" name="pageClick" value="">
+<input type="hidden" id="menuUrl" name="menuUrl" value="">
+</form>
+<div id="footer_wrapper"><div class="footer_nav f12"><ul>
+  <li><a href="./2023_privacy_policy.pdf" target="_blank">プライバシーポリシー（PDF）</a></li>
+  <li><a href="./CMNTRANS010.php" target="_blank">特定商取引法に基づく表示</a></li>
+</ul></div></div>
+</body></html>
