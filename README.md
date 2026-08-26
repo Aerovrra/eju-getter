@@ -67,7 +67,7 @@
 ### 安装
 
 ```bash
-git clone https://github.com/<你的用户名>/eju-getter.git
+git clone https://github.com/Aerovrra/eju-getter.git
 cd eju-getter
 ./setup.sh
 ```
